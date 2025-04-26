@@ -8,7 +8,7 @@ Buttons should be attached to [pins on the Pico](./img/pico_pinouts.png):
 * `GP22` for gamepad button 3
 * `GP21` for gamepad button 4
 
-![Breadboard setup](./img/Gamepad.png)
+![Breadboard setup](./img/Gamepad_bb.png)
 
 ## References:
 * [AdaFruit_CircuitPython_HID Github repository](https://github.com/adafruit/Adafruit_CircuitPython_HID/tree/main)
