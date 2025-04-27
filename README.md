@@ -2,7 +2,11 @@
 
 This project is a USB gamepad, implemented on a Raspberry Pi Pico, written in CircuitPython.
 
-Buttons should be attached to [pins on the Pico](./img/pico_pinouts.png):
+Download [CircuitPython](https://circuitpython.org/downloads) for your Pico and install it. Then copy the `lib`, `boot.py`, and `main.py` files onto Pico.
+
+![files](./img/files_on_pico.png)
+
+Buttons should be attached to [pins on the Pico](./img/pico_pinouts.png) and then attached to the ground rails:
 * `GP9` for gamepad button 1
 * `GP10` for gamepad button 2
 * `GP22` for gamepad button 3

@@ -13,6 +13,8 @@ import usb_hid
 
 from hid_gamepad import Gamepad
 
+DEBUG - False
+
 gp = Gamepad(usb_hid.devices)
 
 # Create some buttons. The physical buttons are connected
@@ -35,8 +37,8 @@ while True:
         gamepad_button_num = gamepad_buttons[i]
         if button.value:
             gp.release_buttons(gamepad_button_num)
-            print(" release", gamepad_button_num, end="")
+            if DEBUG: print(" release", gamepad_button_num, end="\n")
         else:
             gp.press_buttons(gamepad_button_num)
-            print(" press", gamepad_button_num, end="")
+            if DEBUG: print(" press", gamepad_button_num, end="\n")
 
