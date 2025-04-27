@@ -13,7 +13,7 @@ import usb_hid
 
 from hid_gamepad import Gamepad
 
-DEBUG - False
+DEBUG = False
 
 gp = Gamepad(usb_hid.devices)
 
