@@ -1,6 +1,6 @@
 # pico_gamepad
 
-This project is a USB gamepad, implemented on a Raspberry Pi Pico, written in CircuitPython.
+This project is a USB gamepad, implemented on a Raspberry Pi Pico, written in CircuitPython.  This project will work successfully with the [FRC Driver Station](https://docs.wpilib.org/en/stable/docs/software/driverstation/driver-station.html).
 
 Download [CircuitPython](https://circuitpython.org/downloads) for your Pico and install it. Then copy the `lib`, `boot.py`, and `main.py` files onto Pico.
 
